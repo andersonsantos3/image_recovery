@@ -23,6 +23,6 @@ This command will return the positional and optional arguments to run the applic
 The Vistex folder contained in this project's directory has several images. An example of a command to run the application is:
 > python3 main.py Vistex/c001_001.png ./Vistex --number_of_images 5 --save ./results
 
-This command will open the image c_001_001.png and search the Vistex folder for images similar to it. For this, the histograms will be calculated and from them the Probability Density Function (PDF). The distance between PDFs will be measured using Euclidean Distance. At the end, the 5 images that have the shortest distances will be displayed on the screen and saved in the results folder.
+This command will open the image c001_001.png and search the Vistex folder for images similar to it. For this, the histograms will be calculated and from them the Probability Density Function (PDF). The distance between PDFs will be measured using Euclidean Distance. At the end, the 5 images that have the shortest distances will be displayed on the screen and saved in the results folder.
 
 If you do not want to save the resulting images, simply do not enter the --save parameter.
